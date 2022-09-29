@@ -976,8 +976,7 @@ public class Item implements Persistable<String> {
 
 ## Native Query
 가급적 네이티브 쿼리는 사용하지 않는것이 좋고, 정말 어쩔 수 없을 때 사용한다.
-추가로 공부한 내용에서, JPA는 SQL injection을 보통 막아줄 수 있지만, Native query는 이게 불가능하다.
-어지간하면 querydsl과 JPA를 통해 하려 한다.
+다른 방식에 비해 생산성과 유지보수성이 좋지 않기 때문.. 이기는 한데 개인적으로는 한방쿼리를 만들 때에 종종 사용한다.
 
 
 
